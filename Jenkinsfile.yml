@@ -7,6 +7,10 @@ node('ccode'){
       ])
   {
     stage('Clone Client-SDK'){
+    
+    
+    
+    
       cleanWs()
       dir('client-sdk'){
         checkout scm
